@@ -22,7 +22,6 @@
        (region "#3B4252")
        (string "#bec2cc")
        (font-lock-keyword "#68758e")
-       (mode-line-padding 8)
        )
   (setq fci-rule-color  comment)
   (custom-theme-set-faces 'nordique
@@ -80,13 +79,9 @@
    ;; mode-line
    `(mode-line ((,class . (:foreground ,nord4
                          :background ,nord1
-                         :box (:line-width ,mode-line-padding
-                                :color ,nord1)
                          :inherit nil))))
    `(mode-line-inactive ((,class . (:foreground ,comment
-                                  :background ,nord0
-                                  :box (:line-width ,mode-line-padding
-                                         :color ,nord0)))))
+                                  :background ,nord0))))
    `(success ((,class . (:foreground ,nord14))))
    `(warning ((,class . (:foreground ,nord12))))
    `(warning ((,class . (:foreground ,nord11))))

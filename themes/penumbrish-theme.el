@@ -18,7 +18,6 @@
        (blue    "#5794D0")
        (purple  "#9481CC")
        (magenta "#BC73A4")
-       (mode-line-padding 8))
   (setq fci-rule-color  sky-)
   (custom-theme-set-faces 'penumbrish
    `(default ((,class (:background ,shade :foreground ,skyplus))))
@@ -75,13 +74,9 @@
    ;; mode-line
    `(mode-line ((,class (:foreground ,sky
                          :background ,shadeplus
-                         :box (:line-width ,mode-line-padding
-                                :color ,shadeplus)
                          :inherit nil))))
    `(mode-line-inactive ((,class (:foreground ,sky-
-                                  :background ,shade-
-                                  :box (:line-width ,mode-line-padding
-                                         :color ,shade-)))))
+                                  :background ,shade-))))
    `(success ((,class (:foreground ,green))))
    `(warning ((,class (:foreground ,orange))))
    `(error ((,class (:foreground ,red))))
