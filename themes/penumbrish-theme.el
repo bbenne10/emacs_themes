@@ -18,7 +18,6 @@
        (blue    "#5794D0")
        (purple  "#9481CC")
        (magenta "#BC73A4"))
-  (setq fci-rule-color  sky-)
   (custom-theme-set-faces 'penumbrish
    `(default ((,class (:background ,shade :foreground ,skyplus))))
    `(cursor ((,class (:background ,skyplus :inverse-video t))))
