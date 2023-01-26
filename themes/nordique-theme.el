@@ -21,8 +21,7 @@
 
        (region "#3B4252")
        (string "#bec2cc")
-       (font-lock-keyword "#68758e")
-       )
+       (font-lock-keyword "#68758e"))
   (setq fci-rule-color  comment)
   (custom-theme-set-faces 'nordique
    `(default ((,class (:background ,nord0 :foreground ,nord4))))
